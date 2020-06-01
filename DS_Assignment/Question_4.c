@@ -90,12 +90,12 @@ int main()
 	Node *root=FirstNode();
     while(1)
     {
-        printf("\nPress \n'1' to insert a string\n'2' to traverse preorder\n'3' to traverse inorder\n'4' to traverse postorder\n'5' if you wanna exit\n");
+        printf("\nPress \n'1' to insert a character\n'2' to traverse preorder\n'3' to traverse inorder\n'4' to traverse postorder\n'5' if you wanna exit\n");
         scanf("%d",&res);
         fflush(stdin);
         switch(res)
         {
-            case 1 : printf("\nEnter string : ");
+            case 1 : printf("\nEnter character : ");
             		 scanf("%s",&ch);
             		 Insertion(root,ch);
                      break;
